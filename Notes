@@ -19,4 +19,11 @@ React Notes:::
 
 -----Life Cycle Components---------
 
-1. 
+Mounting--->Updating--->Unmounting
+1. Mounting is the phase when the component is being put into the dom for the first time.
+2. Calling Sequnce::
+    First COnstructor gets called
+    Then Render gets called
+    Then LifeCycle Method ,CompnentDidMount Gets Called,
+3.After this base state Updating phase starts,
+    
