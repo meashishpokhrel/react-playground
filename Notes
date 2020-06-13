@@ -1,0 +1,8 @@
+From revisiting Virtual DOM + Unidirectional....
+
+React Notes:::
+
+1. React will copy the Actual DOm and name it Virtual DOM.
+2. When changes is to be applied,React will now again copy the virtual dom and make changes to that specific component.
+3. And now it compares the final virtual DOM with the actual DOM and see changes.
+4. ANd now will apply the change in actual DOM.
