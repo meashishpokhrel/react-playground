@@ -36,3 +36,8 @@ Mounting--->Updating--->Unmounting
     so we use ShouldComponentUpdate
     When we donot want something unneccasary to render again ehich is not needed this it is used.
     It also helps to boast the performance.    
+
+3. Last Phase is Unmounting phase:
+    When i am not rendering anymore Then
+    ComponetWillUnmount is called.
+    After the given task is called it doesnot need to be called again so componentWillUnMount is called.
