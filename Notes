@@ -1,8 +1,18 @@
 From revisiting Virtual DOM + Unidirectional....
 
 React Notes:::
-
+------Virtual React DOM-----
 1. React will copy the Actual DOm and name it Virtual DOM.
 2. When changes is to be applied,React will now again copy the virtual dom and make changes to that specific component.
 3. And now it compares the final virtual DOM with the actual DOM and see changes.
 4. ANd now will apply the change in actual DOM.
+
+---Asynchronous States------
+
+1. State can be defined anywhere.
+2. It is good practise to pass in props in constructor and super.
+    Due to which i can now use this.props in constructor.
+3. We can use simple state without constructor and super but cannot pass props then.
+    This is alternate class syntax. IN regualar JavaSCript we cannot do.
+4. State Updates are Asynchronous. (call of setState is Asynchronous)
+5. Use function insetad of object when need to call state and props.
