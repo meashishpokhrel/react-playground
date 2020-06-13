@@ -26,4 +26,13 @@ Mounting--->Updating--->Unmounting
     Then Render gets called
     Then LifeCycle Method ,CompnentDidMount Gets Called,
 3.After this base state Updating phase starts,
-    
+    New Props, setstate, forceUpdate will trigger update.
+    It calls Render first then
+    calls CompoentDIdUpdate().
+
+    ShouldComponentUpdate:
+    It looks at the props and states and decides whether the componets should be rendered or not.
+    When render is called then all the childrens are also called.
+    so we use ShouldComponentUpdate
+    When we donot want something unneccasary to render again ehich is not needed this it is used.
+    It also helps to boast the performance.    
