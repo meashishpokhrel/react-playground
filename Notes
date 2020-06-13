@@ -16,3 +16,7 @@ React Notes:::
     This is alternate class syntax. IN regualar JavaSCript we cannot do.
 4. State Updates are Asynchronous. (call of setState is Asynchronous)
 5. Use function insetad of object when need to call state and props.
+
+-----Life Cycle Components---------
+
+1. 
